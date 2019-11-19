@@ -22,8 +22,6 @@ npm install
 
 You can make any element draggable by passing the element to Draggable constructor. Refer the following code snippet to enable draggable for DOM element.
 
- {% tab template="common/draggable-default", es5Template="draggable-default-template" %}
-
  ```typescript
  import {Draggable} from  '@syncfusion/ej2-base';
 
@@ -31,13 +29,9 @@ You can make any element draggable by passing the element to Draggable construct
  let draggable:Draggable = new Draggable(dragElement,{clone: false});
  ```
 
- {% endtab %}
-
 ## Creating droppable zone
 
 You can convert any DOM element as a droppable zone, which accepts the draggable elements. Refer the following code snippet to enable droppable zone.
-
-{% tab template="common/droppable-default", es5Template="droppable-default-template" %}
 
  ```typescript
  import { Droppable} from  '@syncfusion/ej2-base';
@@ -45,13 +39,9 @@ You can convert any DOM element as a droppable zone, which accepts the draggable
  let droppable: Droppable = new Droppable(document.getElementById('droppable'));
  ```
 
- {% endtab %}
-
 ## Defining drop action
 
 To define drop action set [`drop`](../api/base/droppable#drop) callback function during droppable object creation. You can get details of dropped element through dropped element property in event argument. Refer the following code snippet to use basic drag and drop action.
-
-{% tab template="common/drag-drop-action", es5Template="drag-drop-template" %}
 
  ```typescript
  import { Draggable, Droppable, DropEventArgs } from '@syncfusion/ej2-base';
@@ -65,8 +55,6 @@ let droppable: Droppable = new Droppable(document.getElementById('droppable'), {
     }
 });
  ```
-
- {% endtab %}
 
 ## Running
 
