@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Typescript Components</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta name="description" content="Typescript UI Controls" />
+    <meta name="author" content="Syncfusion" />
+    <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet" />
+    <style>
+    #droppable {
+    margin: 5px;
+    line-height: 170px;
+    font-size: 14px;
+    width: 250px;
+    border: 1px solid #cecece;
+    background: #f6f6f6;
+    touch-action: none;
+    margin-left: 40%;
+    }
+    #element1 {
+    height: 100px;
+    width: 150px;
+    border: 1px solid #cecece;
+    cursor: move;
+    background: #cdffe3;
+    user-select: none;
+    touch-action: none;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id='container'>
+        <div id='droppable'>
+            <p class='drop'><span>Drop Target </span></p></div>
+    <div id='element1'><p class='drag-text'>Drag </p></div>
+    </div>
+
+    <script src="./bundle.js" type="text/javascript"></script>
+  </body>
+</html>

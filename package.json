@@ -1,0 +1,37 @@
+{
+  "name": "ej2-typescript-seed",
+  "version": "0.0.1",
+  "description": "ej2 typescript seed project",
+  "author": "Syncfusion Inc.",
+  "license": "SEE LICENSE IN license",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syncfusion/ej2-typescript-seed.git"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-base": "*"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "css-loader": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-protractor": "^4.1.0",
+    "jasmine": "^2.6.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.2.2",
+    "typescript": "^3.1.4",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.3.7",
+    "webpack-stream": "^3.2.0"
+  },
+  "scripts": {
+    "start": "gulp start",
+    "serve": "gulp e2e-serve",
+    "test": "gulp e2e-test",
+    "build": "webpack",
+    "update-webdriver": "gulp e2e-webdriver-update"
+  }
+}
